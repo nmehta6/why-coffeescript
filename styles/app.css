@@ -1,0 +1,15 @@
+.app code.short {
+  max-height: 155px;
+}
+.app .rounded {
+  border-radius: 15px;
+}
+.app .no-border {
+  border: none;
+}
+.app .no-box-shadow {
+  box-shadow: none;
+}
+.app .v-align-middle {
+  vertical-align: middle;
+}

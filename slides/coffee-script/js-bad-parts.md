@@ -1,0 +1,12 @@
+##Bad parts of JavaScript:
+- global vars. makes the code brittle and lots of apps have them!
+- Optional Semicolons: [when to use semicolons](http://www.codecademy.com/blog/78-your-guide-to-semicolons-in-JavaScript)
+- Closures
+- Equality (== vs ===)
+- Existential check
+- *this* and *that*
+- Hoisting
+- Object property iteration
+- Lack of enough operators
+- Confusing inheritance
+- Overly verbose

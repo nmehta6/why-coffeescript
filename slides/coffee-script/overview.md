@@ -1,0 +1,13 @@
+##What is CoffeeScript?
+- It is a source-to-source transpiler. 7th most depended-upon package in npm with 1,729,758 downloads in the last month.
+- The golden rule of CoffeeScript is: "It's just JavaScript".  But without all the fanciness of JavaScript.
+- You can use the full JavaScript ecosystem
+- Learn about the drawbacks of JavaScript one time and move on!
+- Does no monkey patching. All JavaScript native objects are untouched.
+- Less code to write less bugs introduced. On average produces 30% less LOC compared to plain JavaScript.
+- Expose the good parts of JavaScript in a seamless manner
+- Only a tool to solve a set of problems and not something that dictates developer workflow or tooling
+- Fits in the node.js centric development
+- Tooling with source maps in browsers
+- Most build tools have plugins for it
+- Well documented

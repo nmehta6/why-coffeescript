@@ -1,0 +1,15 @@
+##Agenda
+- Context: JavaScript in browsers and server
+    - Build complex SPA apps
+    - Support all the crappy browsers
+- JavaScript has some
+    - Good parts
+    - Bad parts
+    - Weird Parts
+- Compiling to JavaScript
+    - Come, on! Everybody is doing it.
+    - Wait, why are they doing it?
+    - Is it worth it?
+- Focus on the good parts and ignore the bad parts
+- CoffeeScript
+- ES5, 6 & 7

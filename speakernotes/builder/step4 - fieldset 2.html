@@ -1,0 +1,38 @@
+<form class="form-vertical" ng-controller="playgroundController">
+	<fieldset>
+		<legend>1. Physician Information</legend>
+		<div class="row">
+			<div class="span9">
+				<app:input caption="First Name" display="inline"></app:input>
+				<app:input caption="Last Name" display="inline"></app:input>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span9">
+				<app:dropdown
+					datasource="specialties"
+					caption="Primary Specialty">
+				</app:dropdown>
+				<div class="bottom-bumper">
+					<span>Is this Physician board certified?</span>
+					<app:popover caption="What does this mean?">
+						<p>What the physician focuses on</p>
+					</app:popover>
+				</div>
+				<app:radiobuttons
+					datasource="radiooptions"
+					field="name"
+					radio-display="inline">
+				</app:radiobuttons>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>2. Modalities</legend>
+		<app:checkboxes
+			model="modalities"
+			field="name"
+			caption="Modalities">
+		</app:checkboxes>
+	</fieldset>
+</form>

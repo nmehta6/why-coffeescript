@@ -13,10 +13,12 @@
 
 
 Note:
-Alright, quick show of hands. How many of you are building some kind of single page application? Ok, so you guys must be familiar with a backend of a frontend then? Alright!
+- Alright, quick show of hands. How many of you are building some kind of single page application?
 
-Since browsers are becoming so much more capable, we are able to just serve up the JSON data to the client and not concern ourselves with rendering on the server-side.
+- Ok, so you guys must be familiar with a backend of a frontend then? Alright!
 
-Backend of a SPA frontend is specialized to do certain things. Lets look at some of these needs.
+- Since browsers are becoming so much more capable, we are able to just serve up the JSON data to the client and not concern ourselves with rendering on the server-side.
 
-All these concerns are I/O concerns. Typically these backends will spend very little time actually processing anything, but rather access data and transform it per the client's needs. Which means, they will just sit and wait for things to be returned to them. This is where Node.js can play an important role. Not only that frontend developers get an already well understood language, but it is really tailored for this purpose as well!
+- Backend of a SPA frontend is specialized to do certain things. Lets look at some of these needs.
+
+- All these concerns are I/O concerns. Typically these backends will spend very little time actually processing anything, but rather access data and transform it per the client's needs. Which means, they will just sit and wait for things to be returned to them. This is where Node.js can play an important role. Not only that frontend developers get an already well understood language, but it is really tailored for this purpose as well!
